@@ -63,10 +63,6 @@ function ghost_exit(){
         }, 1000);
         keyframes = [
             {opacity: 0},
-            {opacity: 0},
-            {opacity: 0},
-            {opacity: 0},
-            {opacity: 0},
             {opacity: 1},
         ];
         options = {
