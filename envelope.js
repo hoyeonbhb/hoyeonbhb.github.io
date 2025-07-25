@@ -60,7 +60,7 @@ function ghost_exit(){
                 fill: "forwards"
             };
             ghost.animate(keyframes, options);          
-        }, 10000);
+        }, 5000);
         keyframes = [
             {opacity: 0},
             {opacity: 0},
