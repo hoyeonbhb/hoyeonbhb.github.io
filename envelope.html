@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>편지</title>
+    <link href="envelope.css" rel="stylesheet" type="text/css" />
+    <link >
+</head>
+<body> 
+    <script  src="./envelope.js"></script>
+    <img src="./lock.png" id="lock" onclick="password()">
+    <img src="./ghost.png" id="ghost" onclick="ghost_exit()">
+    <img src="./envelope.png" id="envelope">
+    <input type="date" id="lock_date" value="2000-01-01">
+    <video muted id="bgmusic" loop>
+        <source src="./나무 (나무).mp3" type="video/mp4">
+    </video>
+    <video muted id="fail">
+        <source src="./bamboo.mp3" type="video/mp4">
+    </video>
+    <video muted id="success">
+        <source src="./chord.mp3" type="video/mp4">
+    </video>
+    <div id="letter_contain">
+        <img src="./letter.png" id="letter1">
+        <img src="./letter2.png" id="letter2">
+    </div>
+</body>
+</html>
