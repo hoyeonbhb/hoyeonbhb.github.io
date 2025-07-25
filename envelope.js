@@ -60,7 +60,7 @@ function ghost_exit(){
                 fill: "forwards"
             };
             ghost.animate(keyframes, options);          
-        }, 1000);
+        }, 5000);
         keyframes = [
             {opacity: 0},
             {opacity: 0},
@@ -71,7 +71,7 @@ function ghost_exit(){
         ];
         options = {
             delay: 0,
-            duration: 10000,
+            duration: 5000,
             easing: "ease-in",
             easing: "ease-out",
             iterations: 1,
