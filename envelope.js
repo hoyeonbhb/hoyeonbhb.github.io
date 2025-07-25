@@ -27,6 +27,7 @@ function ghost_exit(){
     let keyframes;
     let options;
     let ghost = document.getElementById('ghost');
+    const click = document.getElementById('click');
     envelope_ac();
     keyframes = [
         {opacity: 1},
@@ -82,6 +83,8 @@ function ghost_exit(){
         lock.style.top = '135px';
         lock.style.opacity = '1';
     }, 4000);
+    click.play();
+    click.muted = false;
 }
 
 function password(){
@@ -89,6 +92,7 @@ function password(){
     let lock= document.getElementById('lock');
     let keyframes;
     const video = document.getElementById('bgmusic');
+    const click = document.getElementById('click');
     const fail = document.getElementById('fail');
     const success = document.getElementById('success');
     let options;
