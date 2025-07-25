@@ -27,7 +27,7 @@ function ghost_exit(){
     let keyframes;
     let options;
     let ghost = document.getElementById('ghost');
-    const click = document.getElementById('click');
+    let click = document.getElementById('click');
     envelope_ac();
     keyframes = [
         {opacity: 1},
@@ -92,7 +92,6 @@ function password(){
     let lock= document.getElementById('lock');
     let keyframes;
     const video = document.getElementById('bgmusic');
-    const click = document.getElementById('click');
     const fail = document.getElementById('fail');
     const success = document.getElementById('success');
     let options;
