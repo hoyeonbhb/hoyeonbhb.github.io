@@ -121,6 +121,8 @@ function password(){
     };
     if(lock_date.value == "2025-04-19"){
         letter_in();
+        success.play();
+        success.muted = false;
         setTimeout(() => {
             video.muted = false;
             video.play();
