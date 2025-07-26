@@ -141,6 +141,9 @@ function letter_in(){
     let lock= document.getElementById('lock');
     let envelope= document.getElementById('envelope');
     let ghost= document.getElementById('ghost');
+    let l1 = document.getElementById('letter1_f');
+    let l2 = document.getElementById('letter2_f');
+    let l3 = document.getElementById('letter3_f');
     ghost.style.transition = 'all 1s ease-in-out';
     envelope.style.transition = 'all 1s ease-in-out';
     lock.style.transition = 'all 1s ease-in-out';
@@ -151,4 +154,11 @@ function letter_in(){
     lock_date.style.display = "none";
     letter.style.top = "100px";
     letter.style.opacity = "1";
+    console.log("너비:", l1.clientWidth);   // px 단위
+    console.log("높이:", l1.clientHeight);
+    setTimeout(() => {
+        l1.style.opacity = '1';
+        l2.style.opacity = '1';
+        l3.style.opacity = '1';
+    }, 12000);
 }
