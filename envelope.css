@@ -87,7 +87,7 @@ body {
   scrollbar-color: black;
 }
 
-#letter1, #letter2 {
+#letter1, #letter2,#letter3 {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -95,4 +95,27 @@ body {
   display: block;
   font-size: 0;
   border: none;
+}
+#letter1_f, #letter2_f, #letter3_f {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 2;
+  pointer-events: none;
+}
+
+#letter1_f {
+  top: 0px;
+}
+
+#letter2_f {
+  top: 1629px;
+}
+
+#letter3_f {
+  top: 3258px;
 }
