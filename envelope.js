@@ -157,8 +157,8 @@ function letter_in(){
     console.log("너비:", l1.clientWidth);   // px 단위
     console.log("높이:", l1.clientHeight);
     setTimeout(() => {
-        l1.style.opacity = '1';
-        l2.style.opacity = '1';
-        l3.style.opacity = '1';
+        // l1.style.opacity = '1';
+        // l2.style.opacity = '1';
+        // l3.style.opacity = '1';
     }, 12000);
 }
